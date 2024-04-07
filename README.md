@@ -16,8 +16,10 @@ The notebook is structured into several sections, covering various stages of the
 
 5. **Feature Selection:** Based on correlation analysis and information gain, this section performs feature selection to identify the most relevant features for the prediction task.
 <img src="imgs/infogain.png" alt="Infogain" width="800" height="600">
+
 6. **Discriminative Classifiers - Naive Bayes (NB) and Linear Discriminant Analysis (LDA):** NB and LDA are chosen as the discriminative classifiers for predicting match outcomes due to their effectiveness and efficiency. Additionally, Principal Component Analysis (PCA) is applied to Gaussian NB and LDA to further enhance their performance.
 <img src="imgs/hype.png" alt="Infogain" width="500" height="200">
+
 7. **Hyperparameter Tuning and Preliminary Metrics Results:** This section focuses on hyperparameter tuning to optimize the selected models. The performance of the tuned models is evaluated using metrics such as accuracy, precision, recall, F1 score, and ROC AUC. 
 <img src="imgs/eval.png" alt="Infogain" width="800" height="600">
 
