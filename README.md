@@ -10,17 +10,23 @@ The notebook is structured into several sections, covering various stages of the
 
 2. **Missing Value Handling:** This section addresses missing values in the dataset through appropriate strategies such as imputation or removal, ensuring the integrity of the data.
 
-3. **Feature Engineering:** To improve the model's predictive power, this section focuses on feature transformations and encoding techniques for nominal and ordinal categorical features.
+3. **Association Analysis:** Association analysis identifies patterns and relationships among heroes, revealing synergistic combinations and co-occurrences that can enhance team composition and strategies in gameplay.
+<img src="imgs/assoc.png" alt="Infogain" width="800" height="600">
 
-4. **Dataset Shuffling:** In order to prevent bias arising from the order of 'dire' and 'radiant' teams, the dataset is shuffled. This guarantees that swapping team labels does not lead to significantly different outcomes.
+4. **Clustering:** By clustering heroes based on KDA, distinct groups emerge, allowing for the identification of heroes specialized in core roles with high kill potential or heroes suited for support roles focused on assisting teammates and providing utility in the game.
+<img src="imgs/cluster.png" alt="Infogain" width="1000" height="600">
 
-5. **Feature Selection:** Based on correlation analysis and information gain, this section performs feature selection to identify the most relevant features for the prediction task.
+5. **Feature Engineering:** To improve the model's predictive power, this section focuses on feature transformations and encoding techniques for nominal and ordinal categorical features.
+
+6. **Dataset Shuffling:** In order to prevent bias arising from the order of 'dire' and 'radiant' teams, the dataset is shuffled. This guarantees that swapping team labels does not lead to significantly different outcomes.
+
+7. **Feature Selection:** Based on correlation analysis and information gain, this section performs feature selection to identify the most relevant features for the prediction task.
 <img src="imgs/infogain.png" alt="Infogain" width="800" height="600">
 
-6. **Discriminative Classifiers - Naive Bayes (NB) and Linear Discriminant Analysis (LDA):** NB and LDA are chosen as the discriminative classifiers for predicting match outcomes due to their effectiveness and efficiency. Additionally, Principal Component Analysis (PCA) is applied to Gaussian NB and LDA to further enhance their performance.
+8. **Discriminative Classifiers - Naive Bayes (NB) and Linear Discriminant Analysis (LDA):** NB and LDA are chosen as the discriminative classifiers for predicting match outcomes due to their effectiveness and efficiency. Additionally, Principal Component Analysis (PCA) is applied to Gaussian NB and LDA to further enhance their performance.
 <img src="imgs/hype.png" alt="Infogain" width="500" height="200">
 
-7. **Hyperparameter Tuning and Preliminary Metrics Results:** This section focuses on hyperparameter tuning to optimize the selected models. The performance of the tuned models is evaluated using metrics such as accuracy, precision, recall, F1 score, and ROC AUC. 
+9. **Hyperparameter Tuning and Preliminary Metrics Results:** This section focuses on hyperparameter tuning to optimize the selected models. The performance of the tuned models is evaluated using metrics such as accuracy, precision, recall, F1 score, and ROC AUC. 
 <img src="imgs/eval.png" alt="Infogain" width="800" height="600">
 
 ## Application
